@@ -9,4 +9,5 @@ quotes_routes = Blueprint("quotes_routes", __name__)
 @cross_origin()
 def get_quote():
     quote = QuoteView()
+    quote.register()
     return quote.send()
