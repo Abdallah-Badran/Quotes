@@ -1,9 +1,11 @@
 import React from "react"
+import Nav from "./components/Nav/Nav";
+import './app.css'
 
 const App = ()=> {
 	return (
 		<div>
-			<h1>Hello React</h1>
+			<Nav/>
 		</div>
 	);
 }
