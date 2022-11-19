@@ -4,7 +4,6 @@ from flask import request, jsonify
 def auth(controller):
     def inner():
         token = request.headers.get('Authorization', None)
-        print(token)
         if token and token[7:] == 'SHEBAK@2022':
             return controller()
         else:
