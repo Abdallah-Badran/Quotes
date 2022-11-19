@@ -1,0 +1,110 @@
+.main-nav{
+    background-color: rgb(80, 29, 138);
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 15px;
+    box-shadow: 0px 0px 5px 2px rgb(85, 84, 84);
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+button{
+	border: none;
+	outline: none;
+	cursor: pointer
+}
+.popup-bg{
+    background-color: rgba(48, 46, 46, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 999;
+}
+
+.popup-fg{
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 35vh;
+    z-index: 999;
+    box-shadow: 0px 0px 5px -1px rgb(85, 82, 82);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.popup-fg h3{
+    border-bottom: 1px rgb(51, 53, 51) solid;
+    padding-bottom: 5px;
+    color: rgb(231, 64, 64);
+    margin-bottom: 15px;
+}
+
+.errMsg{
+    padding: 15px 0px;
+}
+
+.author-header{
+    display: inline;
+}
+
+.quote-body-new-wrapper{
+    margin-top: 35px;
+}
+
+.page-wrapper{
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 5px 2px rgb(230, 225, 225);
+    border-radius: 3px;
+    padding: 25px;
+	margin-top: 100px;
+}
+
+.quote-body-wrapper{
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+}
+
+.quote-author{
+    text-align: right;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    color: rgb(102, 94, 94);
+}
+
+.quote-header-wrapper button{
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(80, 29, 138);
+    color: white;
+    box-shadow: 0px 0px 5px 2px rgb(145, 143, 143);
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.quote-header{
+    color: rgb(80, 29, 138);
+}
+
+.quote-header-wrapper{
+    display: flex;
+    align-items: center;
+}
