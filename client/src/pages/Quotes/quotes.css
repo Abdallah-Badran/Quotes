@@ -1,0 +1,49 @@
+.author-header{
+    display: inline;
+}
+
+.quote-body-new-wrapper{
+    margin-top: 35px;
+}
+
+.page-wrapper{
+    margin: 0 auto;
+    max-width: 600px;
+    box-shadow: 0px 0px 5px 2px rgb(230, 225, 225);
+    border-radius: 3px;
+    padding: 25px;
+	margin-top: 100px;
+}
+
+.quote-body-wrapper{
+    margin-bottom: 15px;
+    border-radius: 3px;
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+}
+
+.quote-author{
+    text-align: right;
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    color: rgb(102, 94, 94);
+}
+
+.quote-header-wrapper button{
+    padding: 7px;
+    border-radius: 3px;
+    background-color: rgb(80, 29, 138);
+    color: white;
+    box-shadow: 0px 0px 5px 2px rgb(145, 143, 143);
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.quote-header{
+    color: rgb(80, 29, 138);
+}
+
+.quote-header-wrapper{
+    display: flex;
+    align-items: center;
+}
