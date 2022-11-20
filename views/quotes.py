@@ -21,7 +21,7 @@ class QuoteView:
         QuoteView.SUCCESS_CALLS_COUNT += 1
         curr_date = datetime.now()
         QuoteModel.DATA.loc[self.quote.index, 'Count'] += 1
-        if QuoteView.SUCCESS_CALLS_COUNT == 3:
+        if QuoteView.SUCCESS_CALLS_COUNT == 100:
             sheet_name = f"quotes_api_report_{curr_date.year}_{curr_date.month:02d}_{curr_date.day:02d}_" \
                          f"{curr_date.hour:02d}_{curr_date.minute:02d}_{curr_date.second:02d}.xlsx"
             QuoteModel.DATA.to_excel(
